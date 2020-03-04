@@ -42,3 +42,7 @@ print(toys_freq.items())
 # sort by count descending, quprint(toys_freq.items())ote_count descending, alphabetically
 result = [w[0] for w in sorted(toys_freq.items(), key=lambda x: (-x[1][0],-x[1][1],x[0]))[:N]]
 print(result)
+
+
+#dict_items([('elmo', [4, 3]), ('elsa', [4, 2]), ('legos', [0, 0]), ('drone', [1, 1]), ('tablet', [0, 0]), ('warcraft', [1, 1])])
+#['elmo', 'elsa', 'drone']
