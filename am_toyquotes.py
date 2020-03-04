@@ -1,3 +1,12 @@
+# python3 solution -- sort by count descending, quote_count descending, alphabetically
+# Approach 1: Hashmap, sort by multiple keys
+# Time complexity: O(W)+O(TlogT)
+
+# W - total number of words(quotes* words in each quote)
+# T - number of toys
+
+# Space complexity: O(T) -->(dictionary)
+
 import re
 
 quotes = [
